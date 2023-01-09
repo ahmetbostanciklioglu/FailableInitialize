@@ -21,6 +21,7 @@ let objectOfFailableClass = FailableClass(property: "1234")
 ```
 var stringProperty = "False"
 let transformStringToBool = Bool(stringProperty) //nil
-/*MARK: if the value of stringProperty is "true" or "false" Bool(stringProperty) will convert string to optional bool value, else value of transformStringToBool will be nil.
+/*If the value of stringProperty is "true" or "false" Bool(stringProperty) will convert string to optional bool value,
+  else value of transformStringToBool will be nil.
 */
 ```
